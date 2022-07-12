@@ -1,29 +1,23 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "betterviewbobbing",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "betterviewbobbing",
+  "description": "removes the annoying screen shake",
   "authors": [
-    "Me!"
+    "metafive"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/m3t4f1v3/betterviewbobbing"
   },
 
   "license": "CC0-1.0",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
-  },
   "mixins": [
-    "modid.mixins.json"
+    "betterviewbobbing.mixins.json"
   ],
 
   "depends": {
@@ -31,8 +25,5 @@
     "fabric": "*",
     "minecraft": "~1.19",
     "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
